@@ -37,7 +37,7 @@ async function apiCall(value){
     try {
         // console.log(value);
         cardsContainer.innerHTML = `<h2 class="fetchingData">Fetching data...</h2>`
-        const apiKey = "975f9e7a74cf42729624397a83b1d793"
+        const apiKey = // Yours API Key
         const url = "https://newsapi.org/v2/everything?q="
         const data = await fetch(`${url}${value}&apiKey=${apiKey}`)
         const dataToJson = await data.json()
