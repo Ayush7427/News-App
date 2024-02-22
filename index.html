@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="./newsApp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="main-nav container flex">
+               <h2 class="logo">News App</h2>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item Finance" id="Finance">Finance</li>
+                    <li class="hover-link nav-item Technology" id="Technology">Technology</li>
+                    <li class="hover-link nav-item Politics" id="Politics">Politics</li>
+                </ul>
+            </div> 
+            <div class="search-bar flex">
+                <input type="text" class="input" placeholder="e.x. Core">
+                <button type="button" class="search-btn">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="card-container container flex" id="cards-container">
+            <h2 class="search">Search for News...</h2>
+        </div>
+
+    </main>
+    
+</body>
+<script src="./newsApp.js"></script>
+</html>
